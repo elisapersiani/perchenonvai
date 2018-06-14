@@ -1,0 +1,369 @@
+html {
+    position:absolute;
+    width: 100%;
+    height:100%;
+}
+
+head, body{
+  margin:0;
+  padding:0;
+  border:0;
+  height:100%;
+  width: 100%;
+  position: relative;
+}
+
+footer {padding:5px;
+        position: relative;
+        z-index: -1;
+        width: 100%;
+        line-height: 0.8;
+
+}
+
+#Titolo{
+  position: fixed;
+  left: 20px;
+  top: 19px;
+  font-family: 'Arial', sans;
+  font-weight: bold;
+  font-size: 29px;
+  z-index: 200;
+}
+
+#Titolo:hover{
+  color: black;
+}
+a:link {
+    left:20px;
+    position: fixed;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+
+  }
+
+a:visited{
+  position: fixed;
+  color: black;
+}
+
+a:hover{
+  position: fixed;
+  color: pink;
+}
+
+
+#About {
+   position: fixed;
+   top: 50px;
+   left:20px;
+   font-family: 'Arial', sans-serif;
+   font-size: 21px;
+
+}
+
+
+#Projects {
+   position: fixed;
+   top: 100px;
+   left:20px;
+   font-family: 'Arial', sans-serif;
+   font-size: 15px;
+   font-weight: lighter;
+}
+
+#Inspirations {
+   position: fixed;
+   top: 120px;
+   left:20px;
+   font-family: 'Arial', sans-serif;
+   font-size: 15px;
+   font-weight: lighter;
+}
+
+#Instagram {
+   position: fixed;
+   top: 140px;
+   left:20px;
+   font-family: 'Arial', sans-serif;
+   font-size: 15px;
+   font-weight: lighter;
+}
+
+#Contacts {
+   position: fixed;
+   top: 180px;
+   left:20px;
+   font-family: 'Arial', sans-serif;
+   font-size: 15px;
+}
+
+
+
+#Copyright {left:20px;
+            position: fixed;
+            height:100%;
+            width: 100%;
+            text-align: left;
+            font-size: 13px;
+            color: black;
+            font-family: 'Courier New', Arial, sans-serif;
+            display: block;
+
+
+}
+
+#Immagineabout{
+          position:fixed;
+          z-index: -1;
+          top:54px;
+          left:400px;
+
+}
+
+
+.Titoli{
+      z-index: 1;
+      float: right;
+      text-align: left;
+      font-family: 'Arial', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      padding-top: 16px;
+      width: 100%;
+      height: 100%;
+      color: #ff6e00;
+
+
+
+}
+
+
+
+.Paragrafo{
+      float: right;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 100;
+      padding-bottom: 15px;
+      line-height: 2;
+      color: #ff6e00;
+      overflow: scroll;
+
+
+}
+
+#contenitore{
+          position: absolute;
+          z-index: -1;
+          top:490px;
+          left: 450px;
+          width: auto;
+
+
+}
+
+#Immaginehome1{
+        position: absolute;
+        top:0px;
+        left:0px;
+        height: 100px;
+        width: 600px;
+        z-index: -2
+
+}
+
+#frasecentrohome{
+  position:fixed;
+  z-index:0;
+  width: 100%;
+  padding:0;
+  margin:0;
+  height:auto;
+  top: 320px;
+  text-align: center;
+  font-size: 19px;
+  color: white;
+  font-family: 'Permanent Marker', 'Courier New', sans-serif;
+  display: block;
+}
+
+#frasecentrohome:hover{
+  color: yellow;
+}
+
+span.grassetti_about{
+  font-weight: 700;
+}
+
+#paragrafo_contatti{
+  position: fixed;
+  z-index: 0;
+  width: auto;
+  height: 100%;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  padding-bottom: 15px;
+  color: #ff6e00;
+  padding:0;
+  margin:0;
+  top: 375px;
+  right:250px;
+
+}
+
+#email {
+  position:fixed;
+  z-index: 0;
+  width: auto;
+  height: 100%;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  color: #ff6e00;
+  padding:0;
+  margin:0;
+  top: 355px;
+  right:250px;
+
+}
+
+#email:hover{
+  color: yellow;
+}
+
+#Immaginecontacts{
+          position:fixed;
+          z-index: -1;
+          top:0px;
+          right:0px;
+
+}
+
+#bigcontainer{
+  width:100%;
+  height:100%;
+  z-index: -100;
+  overflow: auto;
+}
+
+#spotify{
+  width:360px;
+  font-family:'Arial', sans-serif;
+  color: #ff6e00;
+  position: fixed;
+  top: 250px;
+  left: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  z-index: 100;
+  font-size: 19px;
+  line-height: 1.3;
+
+}
+
+#scoprilitutti{
+  font-family:'Arial', sans-serif;
+  height:auto;
+  color: #ff6e00;
+  position: fixed;
+  top:250px;
+  left: 440px;
+  text-transform: uppercase;
+  font-weight: 700;
+  z-index: 100;
+  font-size: 19px;
+  line-height: 1.5;
+
+}
+
+.elencoscoprili{
+  width: 600px;
+  height:auto;
+  position: absolute;
+  left: 725px;
+  text-align:left;
+  font-family: 'Permanent Marker', 'Arial', sans-serif;
+  font-size: 15px;
+}
+
+#florence{
+  top: 241px;
+
+}
+
+
+
+#florence:hover{
+  color: #ce99ff;
+}
+
+#leluci{
+  top:270px;
+
+}
+
+#leluci:hover{
+  color: #ff1a1a;
+
+
+}
+
+#fra{
+  top: 299px;
+}
+
+#fra:hover{
+  color:#7490ed;
+}
+
+#frusciante{
+  top: 328px;
+}
+
+#frusciante:hover{
+  color:#75ba4b;
+}
+
+#ballonrouge{
+  top: 357px;
+}
+
+#ballonrouge:hover{
+  color:#fd2900;
+}
+
+#vivian{
+  top: 386px;
+}
+
+#vivian:hover{
+  color:#fd507b;
+}
+
+#containerimmaginiprojects{
+    position:absolute;
+
+    width:100vw;
+    height: 100vh;
+    z-index: -500;
+}
+
+.rettangolicontenitori{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    float: left;
+    overflow: auto;
+    margin: 20px;
+
+}
